@@ -61,7 +61,7 @@ $$
 0 & \dfrac{1}{9} & 0 & 0 \\ \\
 1 & \dfrac{4}{9} & \dfrac{4}{9} & 0 \\ \\
 0 & \dfrac{4}{9} & \dfrac{4}{9} & 1 \\ \\
-0 & 0 & \dfrac{1}{9} & 0
+0 & 0 & \dfrac{1}{9} & 0    \\
 \end{bmatrix}
 $$
 2. We compute limiting probability for each state as follows:
@@ -112,10 +112,10 @@ $$
 p & 0 & 0 & 0 & 0   \\
 1-p & 0 & 0 & 0 & 0 \\
 0 & 1-p & 0 & 0 & 0 \\
-0 & p & 0 & 0 & 0 
+0 & p & 0 & 0 & 0 \\
 \end{bmatrix}
 $$
-Following the same principles as before we compute that the $p\in\left\{ 0,1 \right\}$ which results the limiting distribution to be: 
+Following the same principles as before we compute that the $p\in \left\{ 0,1 \right\}$ which results the limiting distribution to be: 
 $\newline$
 For $p=0$    
 $$
