@@ -108,24 +108,40 @@ We can also compute the limiting distribution
   <img src="./ProbabilityModeling/matrix2.png" width="250" />
 </div>
 
-Following the same principles as before we compute that the $ p\in \left\{ 0,1 \right\}$  which results the limiting distribution to be: 
+Following the same principles as before we compute that the $p\in \left\{ 0,1 \right\}$  which results the limiting distribution to be: 
 $ \newline $
 For $p=0$    
 $$
-\pi_0 = 1/2 \newline
-\pi_1 = 0   \newline
-\pi_2 = 0   \newline
-\pi_3 = 1/2 \newline
-\pi_4 = 0   \newline
+\pi_0 = 1/2
+$$
+$$
+\pi_1 = 0
+$$
+$$
+\pi_2 = 0
+$$
+$$
+\pi_3 = 1/2
+$$
+$$
+\pi_4 = 0
 $$
 
 For $p=1$    
 $$
-\pi_0 = 1/2 \newline
-\pi_1 = 0   \newline
-\pi_2 = 0   \newline
-\pi_3 = 0   \newline
-\pi_4 = 1/2 \newline
+\pi_0 = 1/2
+$$
+$$
+\pi_1 = 0
+$$
+$$
+\pi_2 = 0
+$$
+$$
+\pi_3 = 0
+$$
+$$
+\pi_4 = 1/2
 $$
 
 Thus we can conclude that the DTMC is in the state $c_0$ and $c_3$ or $c_0$ and $c_4$, both with 50% probability achieving the regular coin behaviour.
