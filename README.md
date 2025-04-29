@@ -109,36 +109,46 @@ We can also compute the limiting distribution
 </div>
 
 Following the same principles as before we compute that the $p\in \{ 0,1 \}$  which results the limiting distribution to be: $\newline$
-For p=0 
+For p=0
+
 $$
 \pi_0 = 1/2
 $$
+
 $$
 \pi_1 = 0
 $$
+
 $$
 \pi_2 = 0
 $$
+
 $$
 \pi_3 = 1/2
 $$
+
 $$
 \pi_4 = 0
 $$
 
 For p=1   
+
 $$
 \pi_0 = 1/2
 $$
+
 $$
 \pi_1 = 0
 $$
+
 $$
 \pi_2 = 0
 $$
+
 $$
 \pi_3 = 0
 $$
+
 $$
 \pi_4 = 1/2
 $$
