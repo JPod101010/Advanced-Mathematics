@@ -56,14 +56,11 @@ urn.
 The limiting distribution of the DMTC :
 
 1. We construct a matrix that holds from  
-$$
-\begin{bmatrix}
-0 & \dfrac{1}{9} & 0 & 0 \\ \\
-1 & \dfrac{4}{9} & \dfrac{4}{9} & 0 \\ \\
-0 & \dfrac{4}{9} & \dfrac{4}{9} & 1 \\ \\
-0 & 0 & \dfrac{1}{9} & 0    \\
-\end{bmatrix}
-$$
+
+<div align="center">
+  <img src="./ProbabilityModeling/matrix1.png" width="140" />
+</div>
+
 2. We compute limiting probability for each state as follows:
 
 $$
@@ -106,17 +103,13 @@ unknown bias p (probability of heads) to simulate a toss of a fair coin.
 - Formal proof :
 We start the DTMC with probabilty 1 in state $c_0$, then we go onto states $c_1$ with probability $p$ and to $c_2$ with probability $1-p$ then we either return to state $c_0$ with probability $p^2 + (1-p)^2$ or we conclude heads or tails both with probability $p(1-p)$ ... $\newline$
 We can also compute the limiting distribution
-$$
-\begin{bmatrix}
-0 & p & 1-p & 0 & 0 \\
-p & 0 & 0 & 0 & 0   \\
-1-p & 0 & 0 & 0 & 0 \\
-0 & 1-p & 0 & 0 & 0 \\
-0 & p & 0 & 0 & 0 \\
-\end{bmatrix}
-$$
-Following the same principles as before we compute that the $p\in \left\{ 0,1 \right\}$ which results the limiting distribution to be: 
-$\newline$
+
+<div align="center">
+  <img src="./ProbabilityModeling/matrix2.png" width="250" />
+</div>
+
+Following the same principles as before we compute that the $ p\in \left\{ 0,1 \right\}$  which results the limiting distribution to be: 
+$ \newline $
 For $p=0$    
 $$
 \pi_0 = 1/2 \newline
