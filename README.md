@@ -108,9 +108,8 @@ We can also compute the limiting distribution
   <img src="./ProbabilityModeling/matrix2.png" width="250" />
 </div>
 
-Following the same principles as before we compute that the $p\in \{ 0,1 \}$  which results the limiting distribution to be: 
-$ \newline $
-For $p=0$    
+Following the same principles as before we compute that the $p\in \{ 0,1 \}$  which results the limiting distribution to be: $\newline$
+For p=0 
 $$
 \pi_0 = 1/2
 $$
@@ -127,7 +126,7 @@ $$
 \pi_4 = 0
 $$
 
-For $p=1$    
+For p=1   
 $$
 \pi_0 = 1/2
 $$
