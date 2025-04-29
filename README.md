@@ -108,7 +108,7 @@ We can also compute the limiting distribution
   <img src="./ProbabilityModeling/matrix2.png" width="250" />
 </div>
 
-Following the same principles as before we compute that the $p\in \left\{ 0,1 \right\}$  which results the limiting distribution to be: 
+Following the same principles as before we compute that the $p\in \{ 0,1 \}$  which results the limiting distribution to be: 
 $ \newline $
 For $p=0$    
 $$
